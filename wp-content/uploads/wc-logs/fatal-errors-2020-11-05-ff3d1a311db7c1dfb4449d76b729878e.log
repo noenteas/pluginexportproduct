@@ -1,0 +1,30 @@
+2020-11-05T14:41:18+00:00 CRITICAL Uncaught Error: Call to undefined method WF_ProdImpExpCsv_Admin_Screen::admin_export_page() in C:\laragon\www\wordpress\wp-content\plugins\exportar-woo\includes\views\html-wf-admin-screen.php:21
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\exportar-woo\includes\class-export-admin.php(56): include()
+#1 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(287): WF_ProdImpExpCsv_Admin_Screen->output('')
+#2 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\wordpress\wp-admin\admin.php(259): do_action('product_page_wf...')
+#5 {main}
+  thrown in C:\laragon\www\wordpress\wp-content\plugins\exportar-woo\includes\views\html-wf-admin-screen.php on line 21
+
+2020-11-05T14:44:57+00:00 CRITICAL Uncaught Error: Call to undefined method WF_ProdImpExpCsv_Admin_Screen::admin_export_page() in C:\laragon\www\wordpress\wp-content\plugins\exportar-woo\includes\views\html-wf-admin-screen.php:21
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\exportar-woo\includes\class-export-admin.php(63): include()
+#1 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(287): WF_ProdImpExpCsv_Admin_Screen->output('')
+#2 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\wordpress\wp-admin\admin.php(259): do_action('product_page_wf...')
+#5 {main}
+  thrown in C:\laragon\www\wordpress\wp-content\plugins\exportar-woo\includes\views\html-wf-admin-screen.php on line 21
+
+2020-11-05T15:28:59+00:00 CRITICAL Uncaught Error: Call to undefined method WF_ProdImpExpCsv_Admin_Screen::admin_export_page() in C:\laragon\www\wordpress\wp-content\plugins\product-import-export-for-woo\includes\views\html-wf-admin-screen.php:21
+Stack trace:
+#0 C:\laragon\www\wordpress\wp-content\plugins\product-import-export-for-woo\includes\class-export-admin.php(56): include()
+#1 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(287): WF_ProdImpExpCsv_Admin_Screen->output('')
+#2 C:\laragon\www\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\laragon\www\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\laragon\www\wordpress\wp-admin\admin.php(259): do_action('product_page_wf...')
+#5 {main}
+  thrown in C:\laragon\www\wordpress\wp-content\plugins\product-import-export-for-woo\includes\views\html-wf-admin-screen.php on line 21
+
